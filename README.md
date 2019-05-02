@@ -1,5 +1,4 @@
-### using CONDA: create a environment from the YAML file:
-This script predicts a Person Genre from the first (portuguese version only) name of that person.
+### This script predicts a Person Genre from the first (portuguese version only) name of that person.
 
 
 ### using CONDA: create a environment from the YAML file:
