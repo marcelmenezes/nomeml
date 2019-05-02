@@ -23,4 +23,3 @@ jupyter notebook
 ```
 
 ### Then open the NoteNome.ipynb
-3
