@@ -19,4 +19,4 @@ print('NAME: "{0}"'.format(nome))
 print('RandomForest results:\n\tSex: {0}\n\t{1}'.format(c[0], c[1]))
 
 c = getSexoSVC(nome)
-print('\nSVC results:\n\tSex: {0}\n\t{1}'.format(c[0], c[1]))
+print('\nSVC results:\n\tSex: {0}'.format(c))

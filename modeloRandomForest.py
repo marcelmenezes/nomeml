@@ -32,9 +32,9 @@ def getSexoSVC(nome:str):
     df = getDataFrameModelo(nome)
     #return 'M' if reg.predict(df)[0] == 1 else 'F'
     est = est_SVC
-    proba = est.predict_proba(df)
-    proba = np.around(proba, 3)
-    prob = {'probability to be Female': proba[0][0], 'probability to be Male': proba[0][1]}
-    return 'M' if est.predict(df)[0] == 1 else 'F', prob
+    #proba = est.predict_proba(df)
+    #proba = np.around(proba, 3)
+    #prob = {'probability to be Female': proba[0][0], 'probability to be Male': proba[0][1]}
+    return 'M' if est.predict(df)[0] == 1 else 'F'
 
 
