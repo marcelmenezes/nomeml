@@ -1,4 +1,5 @@
-This script predicts a Person Genre from the first (portuguese version only) name of that person, using Python and Sklearn.
+This script predicts a Person Genre from the first (portuguese version only) name of that person, using Python 3.7.3 and Sklearn 0.20.3;
+The model was trained from a dataset of 500k Names (treino/parte_nome_sexo.csv).
 
 using CONDA: create a environment from the YAML file:
 ```
@@ -12,9 +13,9 @@ pip install -r reqnome.txt
 ```
 
 
-Open the 'Anaconda Prompt' and run out.py with your (Portuguese) name as the first argument:
+Open the 'Anaconda Prompt' and run 'out.py' with your (Portuguese) name as the first argument:
 ```
-python out.py "Maria"
+python out.py "João"
 ```
 
 
