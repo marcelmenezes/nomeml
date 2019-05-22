@@ -25,7 +25,4 @@ conda activate nomeenv
 jupyter notebook
 ```
 
-(Alterado na branch Kera)
-
-
 Then open the NoteNome.ipynb
