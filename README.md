@@ -13,13 +13,14 @@ pip install -r reqnome.txt
 ```
 
 
-Open the 'Anaconda Prompt' and run 'out.py' with your (Portuguese) name as the first argument:
+1. Open the 'Anaconda Prompt' and run 'out.py' with your (Portuguese) name as the first argument:
 ```
 python out.py "João"
 ```
 
 
-Or run through Jupyter Notebook, open Anaconda Prompt:
+--- OR --- 
+2. Run through Jupyter Notebook, open Anaconda Prompt:
 ```
 conda activate nomeenv
 jupyter notebook
